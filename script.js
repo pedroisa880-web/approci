@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Gracias por ser mi compañera de aventuras. Que vengan mil más.",
         "Estoy orgulloso de ti mi vida.",
         "Eres mi paz.",
-        "Amo tu forma única de ver el mundo.",
+        "Amo tu forma única de ver el mundo, y lo perfecta e hermosa que eres.",
         "Me encanta que nos apoyemos mutuamente a crecer.",
         "Mi amor por ti es más grande que ayer y menos que mañana.",
         "Te amo. Así de simple. Así de complejo. Así de verdad.",
@@ -319,7 +319,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Gracias por las conversaciones profundas y las tonterías.",
         "¡Vas a brillar hoy! No tengo dudas.",
         "Te amo. En todas tus versiones. En todos tus días.",
-        "Amo la forma en que te apasionas por tus hobbies.",
+        "Amo la forma en como eres, porque eres perfecta.",
         "Gracias por ser el 'sí' a todas mis preguntas.",
         "Para lo que necesites, a la hora que sea. Cuenta conmigo.",
         "Te amo, mi bonita. Más de lo que imaginas.",
@@ -416,3 +416,4 @@ document.addEventListener("DOMContentLoaded", function() {
     // Creamos un corazón nuevo cada segundo
     setInterval(crearCorazon, 1000);
 });
+
