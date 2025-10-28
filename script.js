@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Gracias por ser mi compañera de aventuras. Que vengan mil más.",
         "Respira. Estoy orgulloso de ti, pase lo que pase.",
         "Eres mi paz.",
-        "Holi amorcito, en esta aplicacion veras un mensajito distinto a diario jijijij, de vdd spero que te guste. El primer mensaje es: Siempre recuerda lo mucho que te amo mi vida.",
+        "Siempre recuerda lo mucho que te amo mi vida.",
         "Me encanta que nos propongamos crecer juntos.",
         "Mi amor por ti es más grande que ayer y menos que mañana.",
         "Te amo. Así de simple. Así de complejo. Así de verdad.",
@@ -305,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Gracias por ser mi compañera de aventuras. Que vengan mil más.",
         "Estoy orgulloso de ti mi vida.",
         "Eres mi paz.",
-        "Amo tu forma única de ver el mundo, y lo perfecta e hermosa que eres.",
+        "Holi amorcito, en esta aplicacion veras un mensajito distinto a diario jij, de vdd espero que te guste. El primer mensaje es: Amo tu forma única de ver el mundo, y lo perfecta e hermosa que eres.",
         "Me encanta que nos apoyemos mutuamente a crecer.",
         "Mi amor por ti es más grande que ayer y menos que mañana.",
         "Te amo. Así de simple. Así de complejo. Así de verdad.",
@@ -416,6 +416,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Creamos un corazón nuevo cada segundo
     setInterval(crearCorazon, 1000);
 });
+
 
 
 
