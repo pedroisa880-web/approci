@@ -1,0 +1,93 @@
+/* --- Estilo General --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdeff2; /* Un fondo rosado suave */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Evita barras de scroll */
+}
+
+/* --- La Tarjeta del Mensaje --- */
+.container {
+    text-align: center;
+    padding: 20px;
+    z-index: 2; /* Para que esté sobre los corazones */
+}
+
+.card-mensaje {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.card-mensaje h1 {
+    color: #d6336c; /* Color frambuesa */
+    margin-top: 0;
+}
+
+.card-mensaje p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* --- Animación de Corazones Flotantes --- */
+.heart-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Detrás del mensaje */
+    pointer-events: none; /* Para poder hacer clic "a través" de ellos */
+}
+
+.heart {
+    position: absolute;
+    /* Usamos 'before' y 'after' para crear la forma del corazón */
+    background-color: #e25555;
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    animation: float 10s linear infinite;
+    opacity: 0.8;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #e25555;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -10px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: 10px;
+}
+
+/* La animación que los hace subir */
+@keyframes float {
+    0% {
+        transform: translateY(100vh) rotate(-45deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10vh) rotate(-45deg);
+        opacity: 0;
+    }
+}
