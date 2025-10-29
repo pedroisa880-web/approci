@@ -36,12 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
         "Lo nuestro es mi historia de amor favorita.",
         "Mi amor por ti es incondicional.",
         "Que la noche te traiga paz y descanso. Buenas noches, amor.",
-        "Me encanta la vida que estamos creando.",
+        "Me encanta lo que estamos creando juntitos.",
         "Eres mi número 1.",
         "Mi corazón te eligió. Y no se equivocó. Te amo.",
         "Pst... ¡me encantas!",
         "Eres mi ídola. En serio.",
-        "Me encanta lo auténtica que eres. Nunca tratas de ser alguien más.",
+        "Me encanta lo auténtica que eres conmigo, nunca dejes de serlo .",
         "Eres mi notificación favorita.",
         "Si te digo 'te amo', es porque lo siento en cada rincón de mi ser.",
         "Te amo. (Por si se te había olvidado).",
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Buenos días, mi corazón. ¿Ya te dije que te amo hoy?",
         "Gracias por elegirme cada día.",
         "Gracias por ser mi equilibrio perfecto.",
-        "Me encanta lo descomplicada que eres.",
+        "te amo con todo mi corazoncitoooooooo.",
         "Fin del día. Misión cumplida. Hora de soñar. Te amo.",
         "Eres hermosa por fuera, pero tu interior es una obra de arte.",
         "Te amo. En letras grandes, con mayúsculas y con fuegos artificiales.",
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Mi amor por ti no tiene fecha de vencimiento.",
         "Lo estás haciendo increíble. Sigue adelante.",
         "Pase lo que pase hoy, recuerda que te amo y te admiro.",
-        "Me gustas más que el feriado.",
+        "Me gustas más que el pan con chanchoooooo.",
         "Gracias por ser mi fan #1. Yo soy el tuyo.",
         "https://open.spotify.com/intl-es/track/1gQxoBZiyLK5hRLLoBg89x?si=0ea9e71de10b4984.",
         "Eres mi futuro.",
@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Que la vida nos encuentre siempre juntos.",
         "Eres mi hogar. Donde estés tú, ahí estoy bien.",
         "Eres luz pura, mi amor.",
-        "¡Me encantas! De aquí al infinito.",
+        "¡Me gustas muchoooooo! De aquí al infinito.",
         "Eres mi presente y mi futuro.",
         "Somos. Y muchoooooooooo.",
         "Oye. Sí, tú. Eres hermosa. Sigue con lo tuyo.",
@@ -306,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Estoy orgulloso de ti mi vida.",
         "Eres mi paz.",
         "Holi amorcito, en esta aplicacion veras un mensajito distinto a diario jij, de vdd espero que te guste. El primer mensaje es: Amo tu forma única de ver el mundo, y lo perfecta e hermosa que eres.",
-        "Me encanta que nos apoyemos mutuamente a crecer.",
+        "Hoy estamos de cumple mes jijiji, te amo demasiado mi vida, que sean muchos muchos mas porfiiiii, que nose que haria si no estuvieras en mi vida. Te amo mucho mi lindaaaaaaa.",
         "Mi amor por ti es más grande que ayer y menos que mañana.",
         "Te amo. Así de simple. Así de complejo. Así de verdad.",
         "Me encanta lo bien que hueles siempre.",
@@ -416,6 +416,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Creamos un corazón nuevo cada segundo
     setInterval(crearCorazon, 1000);
 });
+
 
 
 
